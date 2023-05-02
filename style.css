@@ -1,0 +1,45 @@
+/* geral */
+*{
+    margin: 0;
+    font-family: Helvetica;
+}
+
+/* barra de navegação*/
+
+nav{
+    background-color: #303030;
+    border-bottom: 2px solid #05eedb;
+    height: 50px;
+}
+
+#logo{
+    color: #05eedb;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+#menu{
+    list-style: none;
+    float: right;
+    margin-top: 17px;
+}
+
+.item{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #05eedb;
+}
+
+.item a:hover{
+    color: #fff;
+    transition: .8s;
+}
